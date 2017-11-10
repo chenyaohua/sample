@@ -4,5 +4,10 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
-password	C:\Users\kuga5\Code\sample\database\factories\UserFactory.php	/^    static $password;$/;"	variable	line:17
-password	C:\Users\kuga5\Code\sample\database\factories\UserFactory.php	/^        'password' => $password ?: $password = bcrypt('secret'),$/;"	variable	line:22
+User	C:\Users\kuga5\Code\sample\app\Models\User.php	/^class User extends Authenticatable$/;"	class	line:8
+table	C:\Users\kuga5\Code\sample\app\Models\User.php	/^    protected $table = 'users';$/;"	variable	line:12
+table	C:\Users\kuga5\Code\sample\app\Models\User.php	/^    protected $table = 'users';$/;"	variable	line:12
+fillable	C:\Users\kuga5\Code\sample\app\Models\User.php	/^    protected $fillable = [$/;"	variable	line:19
+fillable	C:\Users\kuga5\Code\sample\app\Models\User.php	/^    protected $fillable = [$/;"	variable	line:19
+hidden	C:\Users\kuga5\Code\sample\app\Models\User.php	/^    protected $hidden = [$/;"	variable	line:28
+hidden	C:\Users\kuga5\Code\sample\app\Models\User.php	/^    protected $hidden = [$/;"	variable	line:28
