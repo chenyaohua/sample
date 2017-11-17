@@ -1,4 +1,6 @@
 <?php
+require dirname(dirname(FILE)).'/bootstrap/helpers.php';
+
 $db_config = get_db_config();
 return [
 
