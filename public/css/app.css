@@ -8406,19 +8406,12 @@ p {
   background-color: #3c3e42;
 }
 
-#logo {
-  float: left;
-  margin-right: 10px;
-  font-size: 1.7em;
-  color: #fff;
-  text-decoration: none;
-  letter-spacing: -1px;
-  padding-top: 9px;
-  font-weight: bold;
+#logout {
+  cursor: default;
 }
 
-#logo:hover {
-  color: #fff;
+#logout:hover {
+  background-color: transparent;
 }
 
 /* footer */
