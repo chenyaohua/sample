@@ -21,6 +21,7 @@ $date_time = $faker->date.''.$faker->time;
         'name' => $faker->name,
         'email' => $faker->safeEmail,
         'is_admin' => false,
+        'activated'=>false,
         'password' => $password ?: $password = bcrypt('secret'),
         'remember_token' => str_random(10),
         'created_at' => $date_time,
